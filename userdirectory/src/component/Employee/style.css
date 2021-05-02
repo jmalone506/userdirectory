@@ -1,0 +1,32 @@
+.card{
+    background: indianred;
+    height: 220px;
+    margin: 2rem;
+    position: relative;
+    width: 220px;
+    text-align: center;
+
+}
+
+.card > .img-container {
+    height: 50%;
+    text-align: center;
+    background: cornsilk;
+}
+.card> .img-container > img{
+    width: 50%;
+}
+
+.card > .info{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 12px;
+
+}
+
+.card >.info >ul{
+    list-style: georgian;
+}
+.card> .info > ul > li {
+    margin: top 20px;
+}
